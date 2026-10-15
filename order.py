@@ -50,7 +50,7 @@ def get_orders():
             order_total,
             status,
             created_at
-        FROM orders
+        FROM orders ghg
         WHERE status = ?
         ORDER BY {sort_column} {sort_direction}
         LIMIT 100
